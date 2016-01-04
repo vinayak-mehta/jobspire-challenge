@@ -1,0 +1,7 @@
+from random import randint
+
+def jobspire(name):
+    return name + " " + str(randint(6, 15))
+
+if __name__ == "__main__":
+    print(jobspire("Vinayak"))
